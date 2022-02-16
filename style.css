@@ -1,0 +1,46 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	font-family: 'open-sans', sans-serif;
+
+  background: url(images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+h1 {
+	font-size: 3rem;
+	color: #533c3c;
+
+}
+
+
+
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+.btn-primary {
+	background-color: #5e9ec3;
+	border-color: #5e9ec3;
+}
+.btn-primary:hover {
+	background-color: #6e9ece;
+	border-color: #6e9ece;
+	border-width: 5px;
+}
+
+.btn-xl {
+	padding:  1rem 2rem;
+
+}
+
+.buffer {
+	height: 10rem;
+}
